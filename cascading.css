@@ -2,18 +2,19 @@ button {
   width: 150px;
   height: 150px;
   border: 2px solid #800080; /* Border color: a shade of blue */
-  border-radius: 100px; /* Rounded corners */
+  border-radius: 50px; /* Rounded corners */
   background: linear-gradient(to right, #6dd5fa, #dcb9ff), #800080; /* Background color */
   color: #f2f2f2; /* Text color: white */
   font-size: 50px;
   font-family: 'Arial', sans-serif; /* Specify a font */
   cursor: pointer; /* Add a pointer cursor on hover */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+  transition: background 0.5s; /* Smooth transition on hover */
 }
 
 button:hover {
-  background-color: #34495e; /* Darker background color on hover */
+  background: linear-gradient(to right, #dcb9ff, #6dd5fa); /* Darker background color on hover */
   color: #ecf0f1; /* Lighter text color on hover */
+  border: 2px solid red; /* Debugging border */
 }
 
 .textinput {
