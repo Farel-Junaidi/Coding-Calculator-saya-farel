@@ -1,0 +1,38 @@
+button {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #800080; /* Border color: a shade of blue */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #800080; /* Background color */
+  color: #fff; /* Text color: white */
+  font-size: 25px;
+  font-family: 'Arial', sans-serif; /* Specify a font */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker background color on hover */
+  color: #ecf0f1; /* Lighter text color on hover */
+}
+
+.textinput {
+  width: 335px;
+  height: 50px;
+  font-size: 25px;
+  color: purple;
+  border: solid;
+}
+
+.main {
+  border: 4px solid;
+  background: linear-gradient(purple, blue);
+  text-align: center;
+  margin: auto; /* Center horizontally */
+  margin-top: 10vh; /* Adjust the margin-top based on your preference */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
